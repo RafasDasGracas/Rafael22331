@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="Bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 </head>
 <body>
 
@@ -17,7 +17,9 @@
     <div class="bg-dark p-4">
       <h5 class="text-white h4">Design Multimedia</h5>
       <span class="text-muted">Menu Dinamico</span>
-      <a href=""title="">Inicio</a>
+      <a href="#" title="" class="btn btn-success">INICIO</a>
+      <a href="pg/precos.html" title="Preços dos Items" class="btn btn-success">PREÇOS </a>
+      <a href="pg/sporting.html" title="Sporting" class="btn btn-success">Sporting </a>
     </div>
   </div>
 
@@ -34,13 +36,17 @@
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/1.jpg" class="d-block w-100" alt="...">
+      <img src="img/crs.jfif" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Cristiano Ronaldo</h5>
+          <p>Cristiano Ronaldo.</p>
+        </div>
     </div>
     <div class="carousel-item">
-      <img src="img/2.jpg" class="d-block w-100" alt="...">
+      <img src="img/estadio.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="img/3.jpg" class="d-block w-100" alt="...">
+      <img src="img/sporting.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -64,17 +70,25 @@ A minha primeira pagina no Bootstrap
   <div class="row">
     <div class="col-sm">
 
-    	<img src="img/1.jpg" alt="Praia" title="Primeira Praia" class="img-thumbnail rounded-circle"><p>Primeira foto da Praia</p>
+    	<img src="img/1.jpg" alt="Cristiano Ronaldo" title="Primeira Praia" class="img-thumbnail rounded-circle"><p>Cristiano Ronaldo</p>
     </div>
     <div class="col-sm">
-      <img src="img/2.jpg" alt="Praia" title="Segunda Praia" class="img-fluid"><p>Segunda foto da Praia</p>  
+      <img src="img/2.jpg" alt="Praia" title="Estádio de Alvalade" class="img-fluid"><p>Estádio de Alvalade</p>  
     </div>
     <div class="col-sm">
-      <img src="img/3.jpg" alt="Praia" title="Terceira Praia" class="img-fluid"><p>Terceira foto da Praia</p>
+      <img src="img/3.jpg" alt="Praia" title="Símbolo do Sporting" class="img-fluid"><p>Símbolo do Sporting</p>
       
     </div>
   </div>
 </div>
+
+<!-- Rodapé -->
+
+<footer class="card-footer text-muted bg-dark" style="text-align: center">
+  <div align="center">
+  <h3>@Copy - 22331 - Rafael Graça</h3>
+</div>
+</footer>
 
 <!-- Javascript -->
 <script src="bootstrap/js/jquery-3.3.1.slim.min.js"></script>
